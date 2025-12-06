@@ -1,6 +1,7 @@
 import { cookieStorage, createStorage, http } from '@wagmi/core'
 import { createConfig } from 'wagmi'
 import { defineChain } from 'viem'
+import { injected } from 'wagmi/connectors'
 
 // Define X1 EcoChain networks
 // X1 EcoChain: Energy-efficient L1 (PoA) with ~3W nodes and ultra-low fees
@@ -35,6 +36,9 @@ export const networks = [x1EcoChain, x1Testnet]
 // Set up the Wagmi Config for X1 EcoChain
 export const config = createConfig({
   chains: [x1EcoChain, x1Testnet],
+  connectors: [
+    injected(),
+  ],
   transports: {
     [x1EcoChain.id]: http(),
     [x1Testnet.id]: http(),

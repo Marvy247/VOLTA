@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MantleScope - Real-time Network Monitoring",
-  description: "Comprehensive observability platform for Mantle Network infrastructure",
+  title: "Energy Clash - Blockchain Strategy Game",
+  description: "The first blockchain strategy game where being green makes you win. Build your energy empire on X1 EcoChain.",
 };
 
 export default async function RootLayout({
