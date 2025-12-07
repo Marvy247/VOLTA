@@ -2,7 +2,7 @@
 
 import { Suspense, useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, PerspectiveCamera, Environment } from '@react-three/drei';
+import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import HexTile from './HexTile';
 import { useGameStore } from '../store/gameStore';
 import { getHexesInRadius, hexToKey } from '../utils/hexGrid';
@@ -66,9 +66,7 @@ export default function HexMap({ territories, onTerritoryClick }: HexMapProps) {
             shadow-mapSize-height={2048}
           />
           <pointLight position={[-10, -10, 10]} intensity={0.5} color="#00C58E" />
-
-          {/* Environment */}
-          <Environment preset="night" />
+          <hemisphereLight intensity={0.3} color="#00C58E" groundColor="#0A0A0A" />
 
           {/* Fog */}
           <fog attach="fog" args={['#0A0A0A', 20, 60]} />

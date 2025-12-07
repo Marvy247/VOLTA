@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Energy Clash - Blockchain Strategy Game",
-  description: "The first blockchain strategy game where being green makes you win. Build your energy empire on X1 EcoChain.",
+  title: "VOLTA - The Energy Empire Game",
+  description: "Build. Battle. Electrify. The first blockchain strategy game where renewable energy dominates. Conquer territories, generate power, and rule the X1 EcoChain.",
 };
 
 export default async function RootLayout({

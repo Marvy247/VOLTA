@@ -1,7 +1,7 @@
 {
-  "name": "x1scope",
+  "name": "volta",
   "version": "1.0.0",
-  "description": "Energy-Efficient Blockchain Observatory for X1 EcoChain - Real-time network intelligence, smart contract analysis, and developer tooling",
+  "description": "VOLTA - The Energy Empire Game on X1 EcoChain. Build renewable energy empires, conquer territories, and dominate the blockchain.",
   "private": true,
   "scripts": {
     "dev": "next dev",

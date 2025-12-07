@@ -119,7 +119,7 @@ export default function GameHUD() {
           className="mt-3 flex justify-center"
         >
           <div className="bg-zinc-900/80 backdrop-blur border border-zinc-700 rounded-lg px-4 py-2 text-sm text-zinc-300">
-            <span className="text-emerald-400 font-medium">Welcome back, Commander!</span> Ready to expand your energy empire?
+            <span className="text-emerald-400 font-bold">⚡ VOLTA</span> <span className="text-emerald-400 font-medium">Welcome back, Commander!</span> Ready to expand your energy empire?
           </div>
         </motion.div>
       </div>

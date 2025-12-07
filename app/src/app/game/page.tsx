@@ -122,11 +122,14 @@ export default function GamePage() {
           className="text-center max-w-2xl"
         >
           <div className="mb-8">
-            <h1 className="text-6xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent mb-4">
-              Energy Clash
+            <h1 className="text-7xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent mb-4 tracking-wider">
+              VOLTA
             </h1>
+            <p className="text-2xl text-emerald-400 font-semibold mb-2">
+              The Energy Empire Game
+            </p>
             <p className="text-xl text-zinc-400">
-              The first blockchain strategy game where being green makes you win
+              Build. Battle. Electrify.
             </p>
           </div>
 
